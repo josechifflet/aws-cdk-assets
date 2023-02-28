@@ -1,0 +1,49 @@
+{
+  "name": "aws-cdk-assets",
+  "version": "0.1.0",
+  "bin": {
+    "aws-cdk-assets": "bin/aws-cdk-assets.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "@moia-oss/bastion-host-forward": "^1.1.2",
+    "aws-cdk": "^2.38.0",
+    "aws-cdk-lib": "^2.38.0",
+    "aws-sdk": "^2.1196.0",
+    "cdk-ecr-deployment": "^2.5.5",
+    "constructs": "^10.1.78",
+    "dotenv": "^16.0.1",
+    "global": "^4.4.0",
+    "lodash": "^4.17.21",
+    "rimraf": "^4.1.2",
+    "zod": "^3.18.0"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^2.38.0",
+    "@aws-cdk/aws-appsync-alpha": "^2.59.0-alpha.0",
+    "@types/jest": "^29.4.0",
+    "@types/lodash": "^4.14.183",
+    "@types/node": "^18.7.6",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "aws-cdk-local": "^2.15.0",
+    "esbuild": "^0.17.10",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.4.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.4.3",
+    "prettier": "^2.7.1",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
