@@ -7,7 +7,7 @@ export class VpcAsset {
   constructor(scope: Construct) {
     this.vpc = new Vpc(scope, `${config.PROJECT_NAME}-vpc`, {
       cidr: "10.0.0.0/16",
-      natGateways: 1,
+      natGateways: 2,
       maxAzs: 2,
       subnetConfiguration: [
         {
